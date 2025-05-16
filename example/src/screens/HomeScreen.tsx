@@ -4,7 +4,7 @@ import GoogleCast, {
   CastState,
   useCastState,
   useRemoteMediaClient,
-} from 'react-native-google-cast'
+} from 'op-google-cast'
 import { Navigation, NavigationComponentProps } from 'react-native-navigation'
 import { MenuProvider } from 'react-native-popup-menu'
 import Menu from '../components/Menu'

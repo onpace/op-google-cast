@@ -24,7 +24,7 @@ The plugin provides props for extra customization. Every time you change the pro
   "expo": {
     "plugins": [
       [
-        "react-native-google-cast",
+        "op-google-cast",
         {
           "receiverAppId": "...",
           "iosStartDiscoveryAfterFirstTapOnCastButton": false
@@ -93,7 +93,7 @@ The plugin provides props for extra customization. Every time you change the pro
 
    If using a custom receiver, make sure to replace `CC1AD845` with your custom receiver app id.
 
-   You may also customize the local network usage description (See [#355](https://github.com/react-native-google-cast/react-native-google-cast/issues/355#issuecomment-906520304)).
+   You may also customize the local network usage description (See [#355](https://github.com/op-google-cast/op-google-cast/issues/355#issuecomment-906520304)).
 
    Furthermore, a dialog asking the user for the local network permission will now be displayed immediately when the app is opened.
 

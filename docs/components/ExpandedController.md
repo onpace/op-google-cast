@@ -17,7 +17,7 @@ To use the default expanded controller:
   "expo": {
     "plugins": [
       [
-        "react-native-google-cast",
+        "op-google-cast",
         {
           // ...
           "expandedController": true

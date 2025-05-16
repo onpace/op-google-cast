@@ -15,7 +15,7 @@ const { RNGCCastSession: Native } = NativeModules
  *
  * @example
  * ```js
- * import { useCastSession } from 'react-native-google-cast'
+ * import { useCastSession } from 'op-google-cast'
  *
  * function MyComponent() {
  *   const castSession = useCastSession()

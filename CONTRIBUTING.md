@@ -49,7 +49,7 @@ Remember to add tests for your change if possible. Run the unit tests by:
 yarn test
 ```
 
-To edit the Objective-C files, open `playground/ios/CastVideos.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-google-cast`.
+To edit the Objective-C files, open `playground/ios/CastVideos.xcworkspace` in XCode and find the source files at `Pods > Development Pods > op-google-cast`.
 
 To edit the Java files, open `playground/android` in Android studio and find the source files at `com.reactnative.googlecast` under `Android`.
 

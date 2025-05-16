@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Button, Text } from 'react-native'
 import { ScrollView } from 'react-native-gesture-handler'
-import {
-  MediaInfo,
-  useMediaStatus,
-  useRemoteMediaClient,
-} from 'react-native-google-cast'
+import { MediaInfo, useMediaStatus, useRemoteMediaClient } from 'op-google-cast'
 
 export default function Queue() {
   const client = useRemoteMediaClient()

@@ -53,7 +53,7 @@ This is by far the most common problem with this library. Before creating an iss
   Make sure your `MainActivity` extends `GoogleCastActivity`, `AppCompatActivity`, or some other descendant of `FragmentActivity`.
 
 - ```
-  .../react-native-google-cast/ios/RNGoogleCast/components/RNGoogleCastButtonManager.m:1:9: fatal error: 'React/RCTViewManager.h' file not found
+  .../op-google-cast/ios/RNGoogleCast/components/RNGoogleCastButtonManager.m:1:9: fatal error: 'React/RCTViewManager.h' file not found
   ```
 
   Select `React` from the Schemes and build it first (Cmd+B) before running your main project.
@@ -65,12 +65,12 @@ This is by far the most common problem with this library. Before creating an iss
   clang: error: linker command failed with exit code 1 (use -v to see invocation)
   ```
 
-  This is caused by Google introducing a [dynamic SDK build in 4.3.1](https://issuetracker.google.com/issues/113069508). It seems to affects Google SDK versions 4.3.x - 4.4.x. Please upgrade to the latest SDK (4.5+) or use `react-native-google-cast/NoBluetooth`.
+  This is caused by Google introducing a [dynamic SDK build in 4.3.1](https://issuetracker.google.com/issues/113069508). It seems to affects Google SDK versions 4.3.x - 4.4.x. Please upgrade to the latest SDK (4.5+) or use `op-google-cast/NoBluetooth`.
 
 - ```
   building for iOS Simulator, but linking in object file built for iOS, file '.../ios/Pods/google-cast-sdk-no-bluetooth/GoogleCastSDK-ios-4.7.0_static/GoogleCast.framework/GoogleCast' for architecture arm64
   ```
 
-  When building on M1/ARM Macs, you need to edit your `ios/Podfile` as described in [Installation](https://react-native-google-cast.github.io/docs/getting-started/installation.html#ios).
+  When building on M1/ARM Macs, you need to edit your `ios/Podfile` as described in [Installation](https://op-google-cast.github.io/docs/getting-started/installation.html#ios).
 
-- (Android) Using `tools:node="replace"` in AndroidManifest may cause media to not load on the Cast device [#349](https://github.com/react-native-google-cast/react-native-google-cast/issues/349). See [firebase/quickstart-android#477](https://github.com/firebase/quickstart-android/issues/477) for options how to resolve this.
+- (Android) Using `tools:node="replace"` in AndroidManifest may cause media to not load on the Cast device [#349](https://github.com/op-google-cast/op-google-cast/issues/349). See [firebase/quickstart-android#477](https://github.com/firebase/quickstart-android/issues/477) for options how to resolve this.

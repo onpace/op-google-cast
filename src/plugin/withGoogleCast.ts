@@ -18,7 +18,7 @@ const withGoogleCast: ConfigPlugin<
      * Whether to use the default expanded controller.
      *
      * @default true
-     * @see https://react-native-google-cast.github.io/docs/components/ExpandedController
+     * @see https://op-google-cast.github.io/docs/components/ExpandedController
      */
     expandedController?: boolean
 
@@ -26,7 +26,7 @@ const withGoogleCast: ConfigPlugin<
      * Whether the discovery of Cast devices should not start automatically at context initialization time.
      *
      * @default false
-     * @see https://react-native-google-cast.github.io/docs/getting-started/setup#ios
+     * @see https://op-google-cast.github.io/docs/getting-started/setup#ios
      */
     iosDisableDiscoveryAutostart?: boolean
 
@@ -36,7 +36,7 @@ const withGoogleCast: ConfigPlugin<
      * Whether cast devices discovery start only after a user taps on the Cast button the first time.
      *
      * @default true
-     * @see https://react-native-google-cast.github.io/docs/getting-started/setup#ios
+     * @see https://op-google-cast.github.io/docs/getting-started/setup#ios
      */
     iosStartDiscoveryAfterFirstTapOnCastButton?: boolean
 
@@ -75,4 +75,4 @@ const withGoogleCast: ConfigPlugin<
   return config
 }
 
-export default createRunOncePlugin(withGoogleCast, 'react-native-google-cast')
+export default createRunOncePlugin(withGoogleCast, 'op-google-cast')

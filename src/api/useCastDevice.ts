@@ -8,7 +8,7 @@ import useCastSession, { UseCastSessionOptions } from './useCastSession'
  * @returns current device, or `null` if there's no session connected
  * @example
  * ```js
- * import { useCastDevice } from 'react-native-google-cast'
+ * import { useCastDevice } from 'op-google-cast'
  *
  * function MyComponent() {
  *   const castDevice = useCastDevice()

@@ -6,7 +6,7 @@ import useCastSession, { UseCastSessionOptions } from './useCastSession'
  * @returns current client, or `null` if there's no session connected
  * @example
  * ```js
- * import { useRemoteMediaClient } from 'react-native-google-cast'
+ * import { useRemoteMediaClient } from 'op-google-cast'
  *
  * function MyComponent() {
  *   const client = useRemoteMediaClient()

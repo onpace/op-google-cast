@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Button, ScrollView, Text, View } from 'react-native'
-import CastContext, {
-  useCastChannel,
-  useCastSession,
-} from 'react-native-google-cast'
+import CastContext, { useCastChannel, useCastSession } from 'op-google-cast'
 
 export default function Session() {
   const [lastMessage, setLastMessage] = useState<{}>()

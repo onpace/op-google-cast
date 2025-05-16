@@ -1,6 +1,6 @@
-[![npm version](https://badge.fury.io/js/react-native-google-cast.svg)](https://badge.fury.io/js/react-native-google-cast)
+[![npm version](https://badge.fury.io/js/op-google-cast.svg)](https://badge.fury.io/js/op-google-cast)
 
-# react-native-google-cast
+# op-google-cast
 
 This library wraps the native Google Cast SDK for Android and iOS (and maybe web/Chrome in the future), providing a unified JavaScript interface.
 
@@ -19,7 +19,7 @@ It is written in TypeScript so types will always be up-to-date.
 
 ## Documentation
 
-https://react-native-google-cast.github.io/docs/getting-started/installation
+https://op-google-cast.github.io/docs/getting-started/installation
 
 ## Example
 
@@ -31,11 +31,11 @@ Refer to the [playground](playground/) folder to find a sample app demonstrating
 
 ## Expo
 
-This library can by used by custom built Expo apps (not Expo Go) since Expo SDK 42. The config plugin is now included in this project. Follow [Installation](https://react-native-google-cast.github.io/docs/getting-started/installation#expo) and [Setup](https://react-native-google-cast.github.io/docs/getting-started/setup#expo) sections of the docs.
+This library can by used by custom built Expo apps (not Expo Go) since Expo SDK 42. The config plugin is now included in this project. Follow [Installation](https://op-google-cast.github.io/docs/getting-started/installation#expo) and [Setup](https://op-google-cast.github.io/docs/getting-started/setup#expo) sections of the docs.
 
 ## Troubleshooting
 
-See [Troubleshooting](https://react-native-google-cast.github.io/docs/getting-started/troubleshooting) in the docs.
+See [Troubleshooting](https://op-google-cast.github.io/docs/getting-started/troubleshooting) in the docs.
 
 ## Contribution
 
