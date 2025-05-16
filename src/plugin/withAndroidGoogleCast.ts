@@ -155,7 +155,7 @@ const withMainActivityLazyLoading: ConfigPlugin = (config) => {
 // castFrameworkVersion
 export const withAndroidGoogleCast: ConfigPlugin<{
   /**
-   * @default '+'
+   * @default '22.0.0'
    */
   androidPlayServicesCastFrameworkVersion?: string
 
@@ -174,11 +174,11 @@ export const withAndroidGoogleCast: ConfigPlugin<{
 
   config = withProjectBuildGradleVersion(config, {
     // gradle dep version
-    version: props.androidPlayServicesCastFrameworkVersion ?? '+',
+    version: props.androidPlayServicesCastFrameworkVersion ?? '22.0.0',
   })
   config = withAppBuildGradleImport(config, {
     // gradle dep version
-    version: props.androidPlayServicesCastFrameworkVersion ?? '+',
+    version: props.androidPlayServicesCastFrameworkVersion ?? '22.0.0',
   })
 
   return config
@@ -217,7 +217,7 @@ function addGoogleCastImport(
   const newSrc = []
 
   newSrc.push(
-    `    implementation "com.google.android.gms:play-services-cast-framework:\${safeExtGet('castFrameworkVersion', '${version}')}"`
+    `    implementation "com.google.android.gms:play-services-cast-framework:22.0.0"`
   )
 
   return mergeContents({
