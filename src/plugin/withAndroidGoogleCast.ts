@@ -215,7 +215,7 @@ function addGoogleCastImport(
   { version }: { version?: string } = {}
 ) {
   const newSrc = []
-
+  console.log('version:: ', version)
   newSrc.push(
     `    implementation "com.google.android.gms:play-services-cast-framework:22.0.0"`
   )

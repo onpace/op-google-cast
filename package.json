@@ -1,5 +1,5 @@
 {
-  "name": "react-native-google-cast",
+  "name": "op-google-cast",
   "version": "4.8.3",
   "description": "React Native wrapper for the Google Cast SDK for iOS and Android",
   "main": "lib/commonjs/index",
@@ -25,12 +25,13 @@
   ],
   "contributors": [
     "Charlie L <charliesbot@gmail.com>",
-    "Petr Bela <github@petrbela.com>"
+    "Petr Bela <github@petrbela.com>",
+    "Tom O'Mara <t.omara@hotmail.co.uk>"
   ],
-  "homepage": "https://github.com/react-native-google-cast/react-native-google-cast",
+  "homepage": "https://github.com/onpace/op-google-cast",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-google-cast/react-native-google-cast.git"
+    "url": "https://github.com/onpace/op-google-cast.git"
   },
   "license": "MIT",
   "scripts": {
